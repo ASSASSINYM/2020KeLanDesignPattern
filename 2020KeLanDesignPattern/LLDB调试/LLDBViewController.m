@@ -19,25 +19,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    Student *student = [Student new];
-
-    Teacher *teacher = [Teacher new];
-
-    student.teacher = teacher;
-    teacher.student = student;
-
-    CGFloat dddd = CUCommonUIGetScreenWidth();
-    NSLog(@"%lf",dddd);
-    
-    dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        NSLog(@"%lf",dddd);
-    });
-    
-    dispatch_async(dispatch_get_main_queue(), ^{
-        NSLog(@"%lf",dddd);
-    });
-    
+//    
+//    Student *student = [Student new];
+//
+//    Teacher *teacher = [Teacher new];
+//
+//    student.teacher = teacher;
+//    teacher.student = student;
+//
+//    CGFloat dddd = CUCommonUIGetScreenWidth();
+//    NSLog(@"%lf",dddd);
+//    
+//    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+//        NSLog(@"%lf",dddd);
+//    });
+//    
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//        NSLog(@"%lf",dddd);
+//    });
+//    
 //
 //    int a = 1;
 //
